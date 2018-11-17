@@ -1,0 +1,8 @@
+pageobjects\HomePage.class
+step_definitions\Hooks.class
+modules\Login.class
+helpers\Log.class
+pageobjects\LoginPage.class
+pageobjects\BaseClass.class
+step_definitions\LoginTest.class
+TestRunners\RegressionRunner.class
