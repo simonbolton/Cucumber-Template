@@ -7,9 +7,9 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/features/",
+		features = {"src/test/Features/"},
 		plugin = {"html:target/cucumber-html-report", "json:target/cucumber-json-report.json" },
-		glue={"step_definitions"}
+		glue={"stepDefinitions"}
 		)
 
 public class RegressionRunner {
