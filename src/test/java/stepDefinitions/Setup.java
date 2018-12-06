@@ -5,6 +5,7 @@ import java.net.MalformedURLException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
@@ -40,6 +41,11 @@ public class Setup {
 		case "IE":
 			WebDriverManager.iedriver().setup();
 			driver = new InternetExplorerDriver();
+			break;
+			
+		case "FireFox":
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
 			break;
 
 		case "Opera":
