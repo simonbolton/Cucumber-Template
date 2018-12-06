@@ -73,10 +73,37 @@
     "line": 19,
     "elements": [
       {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3804150143,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am at the \"http://automationpractice.com\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchesStepDefs.i_have_at_the_site(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
         "before": [
           {
             "result": {
-              "duration": 4680203532,
+              "duration": 4754457850,
               "status": "passed"
             },
             "match": {
@@ -84,14 +111,14 @@
             }
           }
         ],
-        "line": 30,
+        "line": 32,
         "name": "Searching for items returns results",
         "description": "",
         "id": "searching;searching-for-items-returns-results;;2",
         "after": [
           {
             "result": {
-              "duration": 634840347,
+              "duration": 637022429,
               "status": "passed"
             },
             "match": {
@@ -104,28 +131,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2830473620,
+              "duration": 130502830,
               "status": "passed"
             },
-            "line": 23,
-            "name": "I am at the \"http://automationpractice.com\" site",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://automationpractice.com",
-                  "offset": 13
-                }
-              ],
-              "location": "SearchesStepDefs.i_have_at_the_site(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 138241711,
-              "status": "passed"
-            },
-            "line": 24,
+            "line": 26,
             "name": "I enter \"blouse\" in to the search box",
             "match": {
               "arguments": [
@@ -143,10 +152,10 @@
           },
           {
             "result": {
-              "duration": 808551069,
+              "duration": 909750971,
               "status": "passed"
             },
-            "line": 25,
+            "line": 27,
             "name": "I press search",
             "match": {
               "location": "SearchesStepDefs.i_press_search()"
@@ -155,10 +164,10 @@
           },
           {
             "result": {
-              "duration": 31384697,
+              "duration": 36007335,
               "status": "passed"
             },
-            "line": 26,
+            "line": 28,
             "name": "I should get \"1 result has been found.\" returned",
             "match": {
               "arguments": [
@@ -181,8 +190,35 @@
             "name": "@search"
           },
           {
-            "line": 21,
+            "line": 24,
             "name": "@search_terms"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3688486435,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am at the \"http://automationpractice.com\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchesStepDefs.i_have_at_the_site(String)"
+            },
+            "keyword": "Given "
           }
         ]
       },
@@ -190,7 +226,7 @@
         "before": [
           {
             "result": {
-              "duration": 3270552160,
+              "duration": 3268408836,
               "status": "passed"
             },
             "match": {
@@ -198,14 +234,14 @@
             }
           }
         ],
-        "line": 31,
+        "line": 33,
         "name": "Searching for items returns results",
         "description": "",
         "id": "searching;searching-for-items-returns-results;;3",
         "after": [
           {
             "result": {
-              "duration": 638021564,
+              "duration": 639666176,
               "status": "passed"
             },
             "match": {
@@ -218,28 +254,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3905484841,
+              "duration": 125065438,
               "status": "passed"
             },
-            "line": 23,
-            "name": "I am at the \"http://automationpractice.com\" site",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://automationpractice.com",
-                  "offset": 13
-                }
-              ],
-              "location": "SearchesStepDefs.i_have_at_the_site(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 130515654,
-              "status": "passed"
-            },
-            "line": 24,
+            "line": 26,
             "name": "I enter \"dress\" in to the search box",
             "match": {
               "arguments": [
@@ -257,10 +275,10 @@
           },
           {
             "result": {
-              "duration": 902289091,
+              "duration": 940004019,
               "status": "passed"
             },
-            "line": 25,
+            "line": 27,
             "name": "I press search",
             "match": {
               "location": "SearchesStepDefs.i_press_search()"
@@ -269,10 +287,10 @@
           },
           {
             "result": {
-              "duration": 27716452,
+              "duration": 31267286,
               "status": "passed"
             },
-            "line": 26,
+            "line": 28,
             "name": "I should get \"7 results have been found.\" returned",
             "match": {
               "arguments": [
@@ -295,8 +313,35 @@
             "name": "@search"
           },
           {
-            "line": 21,
+            "line": 24,
             "name": "@search_terms"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3745285812,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am at the \"http://automationpractice.com\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchesStepDefs.i_have_at_the_site(String)"
+            },
+            "keyword": "Given "
           }
         ]
       },
@@ -304,7 +349,7 @@
         "before": [
           {
             "result": {
-              "duration": 3266985083,
+              "duration": 3264008197,
               "status": "passed"
             },
             "match": {
@@ -312,14 +357,14 @@
             }
           }
         ],
-        "line": 32,
+        "line": 34,
         "name": "Searching for items returns results",
         "description": "",
         "id": "searching;searching-for-items-returns-results;;4",
         "after": [
           {
             "result": {
-              "duration": 638546495,
+              "duration": 644275705,
               "status": "passed"
             },
             "match": {
@@ -332,28 +377,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3712626691,
+              "duration": 114060133,
               "status": "passed"
             },
-            "line": 23,
-            "name": "I am at the \"http://automationpractice.com\" site",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://automationpractice.com",
-                  "offset": 13
-                }
-              ],
-              "location": "SearchesStepDefs.i_have_at_the_site(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 150120190,
-              "status": "passed"
-            },
-            "line": 24,
+            "line": 26,
             "name": "I enter \"t-shirt\" in to the search box",
             "match": {
               "arguments": [
@@ -371,10 +398,10 @@
           },
           {
             "result": {
-              "duration": 823657502,
+              "duration": 837521427,
               "status": "passed"
             },
-            "line": 25,
+            "line": 27,
             "name": "I press search",
             "match": {
               "location": "SearchesStepDefs.i_press_search()"
@@ -383,10 +410,10 @@
           },
           {
             "result": {
-              "duration": 28907093,
+              "duration": 28203480,
               "status": "passed"
             },
-            "line": 26,
+            "line": 28,
             "name": "I should get \"1 result has been found.\" returned",
             "match": {
               "arguments": [
@@ -409,8 +436,35 @@
             "name": "@search"
           },
           {
-            "line": 21,
+            "line": 24,
             "name": "@search_terms"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3730410497,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am at the \"http://automationpractice.com\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchesStepDefs.i_have_at_the_site(String)"
+            },
+            "keyword": "Given "
           }
         ]
       },
@@ -418,7 +472,7 @@
         "before": [
           {
             "result": {
-              "duration": 3295560175,
+              "duration": 3260430859,
               "status": "passed"
             },
             "match": {
@@ -426,14 +480,14 @@
             }
           }
         ],
-        "line": 33,
+        "line": 35,
         "name": "Searching for items returns results",
         "description": "",
         "id": "searching;searching-for-items-returns-results;;5",
         "after": [
           {
             "result": {
-              "duration": 631670245,
+              "duration": 641379468,
               "status": "passed"
             },
             "match": {
@@ -446,28 +500,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3993440932,
+              "duration": 130989289,
               "status": "passed"
             },
-            "line": 23,
-            "name": "I am at the \"http://automationpractice.com\" site",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://automationpractice.com",
-                  "offset": 13
-                }
-              ],
-              "location": "SearchesStepDefs.i_have_at_the_site(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 120948637,
-              "status": "passed"
-            },
-            "line": 24,
+            "line": 26,
             "name": "I enter \"blah\" in to the search box",
             "match": {
               "arguments": [
@@ -485,10 +521,10 @@
           },
           {
             "result": {
-              "duration": 874422170,
+              "duration": 905067918,
               "status": "passed"
             },
-            "line": 25,
+            "line": 27,
             "name": "I press search",
             "match": {
               "location": "SearchesStepDefs.i_press_search()"
@@ -497,10 +533,10 @@
           },
           {
             "result": {
-              "duration": 27921351,
+              "duration": 29280414,
               "status": "passed"
             },
-            "line": 26,
+            "line": 28,
             "name": "I should get \"0 results have been found.\" returned",
             "match": {
               "arguments": [
@@ -523,8 +559,35 @@
             "name": "@search"
           },
           {
-            "line": 21,
+            "line": 24,
             "name": "@search_terms"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3812934896,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am at the \"http://automationpractice.com\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchesStepDefs.i_have_at_the_site(String)"
+            },
+            "keyword": "Given "
           }
         ]
       },
@@ -532,7 +595,7 @@
         "before": [
           {
             "result": {
-              "duration": 3260357335,
+              "duration": 3260901929,
               "status": "passed"
             },
             "match": {
@@ -540,14 +603,14 @@
             }
           }
         ],
-        "line": 36,
+        "line": 38,
         "name": "searching for items that return no results should show an error to the user",
         "description": "",
         "id": "searching;searching-for-items-that-return-no-results-should-show-an-error-to-the-user",
         "after": [
           {
             "result": {
-              "duration": 633436543,
+              "duration": 646374288,
               "status": "passed"
             },
             "match": {
@@ -560,28 +623,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3937246850,
+              "duration": 118818422,
               "status": "passed"
             },
-            "line": 37,
-            "name": "I am at the \"http://automationpractice.com\" site",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://automationpractice.com",
-                  "offset": 13
-                }
-              ],
-              "location": "SearchesStepDefs.i_have_at_the_site(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 119077182,
-              "status": "passed"
-            },
-            "line": 38,
+            "line": 39,
             "name": "I enter \"blah\" in to the search box",
             "match": {
               "arguments": [
@@ -596,10 +641,10 @@
           },
           {
             "result": {
-              "duration": 820025163,
+              "duration": 791970727,
               "status": "passed"
             },
-            "line": 39,
+            "line": 40,
             "name": "I press search",
             "match": {
               "location": "SearchesStepDefs.i_press_search()"
@@ -608,10 +653,10 @@
           },
           {
             "result": {
-              "duration": 34759984,
+              "duration": 28339700,
               "status": "passed"
             },
-            "line": 40,
+            "line": 41,
             "name": "I should see \"No results were found for your search \"blah\"\" warning",
             "match": {
               "arguments": [
@@ -627,7 +672,7 @@
         ],
         "tags": [
           {
-            "line": 35,
+            "line": 37,
             "name": "@search_terms"
           }
         ]

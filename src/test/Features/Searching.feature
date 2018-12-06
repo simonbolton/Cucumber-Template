@@ -18,9 +18,11 @@
 @search
 Feature: Searching
 
+  Background: 
+    Given I am at the "http://automationpractice.com" site
+
   @search_terms
   Scenario Outline: Searching for items returns results
-    Given I am at the "http://automationpractice.com" site
     When I enter "<search term>" in to the search box
     And I press search
     Then I should get "<result>" returned
@@ -32,9 +34,8 @@ Feature: Searching
       | t-shirt     | 1 result has been found.   |
       | blah        | 0 results have been found. |
 
-   @search_terms    
-   Scenario: searching for items that return no results should show an error to the user
-    Given I am at the "http://automationpractice.com" site
+  @search_terms
+  Scenario: searching for items that return no results should show an error to the user
     When I enter "blah" in to the search box
     And I press search
     Then I should see "No results were found for your search "blah"" warning

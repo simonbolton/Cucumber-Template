@@ -83,7 +83,7 @@ formatter.feature({
   ]
 });
 formatter.scenarioOutline({
-  "line": 22,
+  "line": 25,
   "name": "Searching for items returns results",
   "description": "",
   "id": "searching;searching-for-items-returns-results",
@@ -91,33 +91,28 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 21,
+      "line": 24,
       "name": "@search_terms"
     }
   ]
 });
 formatter.step({
-  "line": 23,
-  "name": "I am at the \"http://automationpractice.com\" site",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 24,
+  "line": 26,
   "name": "I enter \"\u003csearch term\u003e\" in to the search box",
   "keyword": "When "
 });
 formatter.step({
-  "line": 25,
+  "line": 27,
   "name": "I press search",
   "keyword": "And "
 });
 formatter.step({
-  "line": 26,
+  "line": 28,
   "name": "I should get \"\u003cresult\u003e\" returned",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 28,
+  "line": 30,
   "name": "",
   "description": "",
   "id": "searching;searching-for-items-returns-results;",
@@ -127,7 +122,7 @@ formatter.examples({
         "search term",
         "result"
       ],
-      "line": 29,
+      "line": 31,
       "id": "searching;searching-for-items-returns-results;;1"
     },
     {
@@ -135,7 +130,7 @@ formatter.examples({
         "blouse",
         "1 result has been found."
       ],
-      "line": 30,
+      "line": 32,
       "id": "searching;searching-for-items-returns-results;;2"
     },
     {
@@ -143,7 +138,7 @@ formatter.examples({
         "dress",
         "7 results have been found."
       ],
-      "line": 31,
+      "line": 33,
       "id": "searching;searching-for-items-returns-results;;3"
     },
     {
@@ -151,7 +146,7 @@ formatter.examples({
         "t-shirt",
         "1 result has been found."
       ],
-      "line": 32,
+      "line": 34,
       "id": "searching;searching-for-items-returns-results;;4"
     },
     {
@@ -159,59 +154,27 @@ formatter.examples({
         "blah",
         "0 results have been found."
       ],
-      "line": 33,
+      "line": 35,
       "id": "searching;searching-for-items-returns-results;;5"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4680203532,
+  "duration": 4754457850,
   "status": "passed"
 });
-formatter.scenario({
-  "line": 30,
-  "name": "Searching for items returns results",
+formatter.background({
+  "line": 21,
+  "name": "",
   "description": "",
-  "id": "searching;searching-for-items-returns-results;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 18,
-      "name": "@search"
-    },
-    {
-      "line": 21,
-      "name": "@search_terms"
-    }
-  ]
+  "type": "background",
+  "keyword": "Background"
 });
 formatter.step({
-  "line": 23,
+  "line": 22,
   "name": "I am at the \"http://automationpractice.com\" site",
   "keyword": "Given "
-});
-formatter.step({
-  "line": 24,
-  "name": "I enter \"blouse\" in to the search box",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 25,
-  "name": "I press search",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 26,
-  "name": "I should get \"1 result has been found.\" returned",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
 });
 formatter.match({
   "arguments": [
@@ -223,8 +186,47 @@ formatter.match({
   "location": "SearchesStepDefs.i_have_at_the_site(String)"
 });
 formatter.result({
-  "duration": 2830473620,
+  "duration": 3804150143,
   "status": "passed"
+});
+formatter.scenario({
+  "line": 32,
+  "name": "Searching for items returns results",
+  "description": "",
+  "id": "searching;searching-for-items-returns-results;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 18,
+      "name": "@search"
+    },
+    {
+      "line": 24,
+      "name": "@search_terms"
+    }
+  ]
+});
+formatter.step({
+  "line": 26,
+  "name": "I enter \"blouse\" in to the search box",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 27,
+  "name": "I press search",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "I should get \"1 result has been found.\" returned",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
 });
 formatter.match({
   "arguments": [
@@ -236,14 +238,14 @@ formatter.match({
   "location": "SearchesStepDefs.i_enter_in_to_the_search_box(String)"
 });
 formatter.result({
-  "duration": 138241711,
+  "duration": 130502830,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchesStepDefs.i_press_search()"
 });
 formatter.result({
-  "duration": 808551069,
+  "duration": 909750971,
   "status": "passed"
 });
 formatter.match({
@@ -256,60 +258,28 @@ formatter.match({
   "location": "SearchesStepDefs.i_should_get_returned(String)"
 });
 formatter.result({
-  "duration": 31384697,
+  "duration": 36007335,
   "status": "passed"
 });
 formatter.after({
-  "duration": 634840347,
+  "duration": 637022429,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3270552160,
+  "duration": 3268408836,
   "status": "passed"
 });
-formatter.scenario({
-  "line": 31,
-  "name": "Searching for items returns results",
+formatter.background({
+  "line": 21,
+  "name": "",
   "description": "",
-  "id": "searching;searching-for-items-returns-results;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 18,
-      "name": "@search"
-    },
-    {
-      "line": 21,
-      "name": "@search_terms"
-    }
-  ]
+  "type": "background",
+  "keyword": "Background"
 });
 formatter.step({
-  "line": 23,
+  "line": 22,
   "name": "I am at the \"http://automationpractice.com\" site",
   "keyword": "Given "
-});
-formatter.step({
-  "line": 24,
-  "name": "I enter \"dress\" in to the search box",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 25,
-  "name": "I press search",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 26,
-  "name": "I should get \"7 results have been found.\" returned",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
 });
 formatter.match({
   "arguments": [
@@ -321,8 +291,47 @@ formatter.match({
   "location": "SearchesStepDefs.i_have_at_the_site(String)"
 });
 formatter.result({
-  "duration": 3905484841,
+  "duration": 3688486435,
   "status": "passed"
+});
+formatter.scenario({
+  "line": 33,
+  "name": "Searching for items returns results",
+  "description": "",
+  "id": "searching;searching-for-items-returns-results;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 18,
+      "name": "@search"
+    },
+    {
+      "line": 24,
+      "name": "@search_terms"
+    }
+  ]
+});
+formatter.step({
+  "line": 26,
+  "name": "I enter \"dress\" in to the search box",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 27,
+  "name": "I press search",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "I should get \"7 results have been found.\" returned",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
 });
 formatter.match({
   "arguments": [
@@ -334,14 +343,14 @@ formatter.match({
   "location": "SearchesStepDefs.i_enter_in_to_the_search_box(String)"
 });
 formatter.result({
-  "duration": 130515654,
+  "duration": 125065438,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchesStepDefs.i_press_search()"
 });
 formatter.result({
-  "duration": 902289091,
+  "duration": 940004019,
   "status": "passed"
 });
 formatter.match({
@@ -354,60 +363,28 @@ formatter.match({
   "location": "SearchesStepDefs.i_should_get_returned(String)"
 });
 formatter.result({
-  "duration": 27716452,
+  "duration": 31267286,
   "status": "passed"
 });
 formatter.after({
-  "duration": 638021564,
+  "duration": 639666176,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3266985083,
+  "duration": 3264008197,
   "status": "passed"
 });
-formatter.scenario({
-  "line": 32,
-  "name": "Searching for items returns results",
+formatter.background({
+  "line": 21,
+  "name": "",
   "description": "",
-  "id": "searching;searching-for-items-returns-results;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 18,
-      "name": "@search"
-    },
-    {
-      "line": 21,
-      "name": "@search_terms"
-    }
-  ]
+  "type": "background",
+  "keyword": "Background"
 });
 formatter.step({
-  "line": 23,
+  "line": 22,
   "name": "I am at the \"http://automationpractice.com\" site",
   "keyword": "Given "
-});
-formatter.step({
-  "line": 24,
-  "name": "I enter \"t-shirt\" in to the search box",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 25,
-  "name": "I press search",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 26,
-  "name": "I should get \"1 result has been found.\" returned",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
 });
 formatter.match({
   "arguments": [
@@ -419,8 +396,47 @@ formatter.match({
   "location": "SearchesStepDefs.i_have_at_the_site(String)"
 });
 formatter.result({
-  "duration": 3712626691,
+  "duration": 3745285812,
   "status": "passed"
+});
+formatter.scenario({
+  "line": 34,
+  "name": "Searching for items returns results",
+  "description": "",
+  "id": "searching;searching-for-items-returns-results;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 18,
+      "name": "@search"
+    },
+    {
+      "line": 24,
+      "name": "@search_terms"
+    }
+  ]
+});
+formatter.step({
+  "line": 26,
+  "name": "I enter \"t-shirt\" in to the search box",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 27,
+  "name": "I press search",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "I should get \"1 result has been found.\" returned",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
 });
 formatter.match({
   "arguments": [
@@ -432,14 +448,14 @@ formatter.match({
   "location": "SearchesStepDefs.i_enter_in_to_the_search_box(String)"
 });
 formatter.result({
-  "duration": 150120190,
+  "duration": 114060133,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchesStepDefs.i_press_search()"
 });
 formatter.result({
-  "duration": 823657502,
+  "duration": 837521427,
   "status": "passed"
 });
 formatter.match({
@@ -452,60 +468,28 @@ formatter.match({
   "location": "SearchesStepDefs.i_should_get_returned(String)"
 });
 formatter.result({
-  "duration": 28907093,
+  "duration": 28203480,
   "status": "passed"
 });
 formatter.after({
-  "duration": 638546495,
+  "duration": 644275705,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3295560175,
+  "duration": 3260430859,
   "status": "passed"
 });
-formatter.scenario({
-  "line": 33,
-  "name": "Searching for items returns results",
+formatter.background({
+  "line": 21,
+  "name": "",
   "description": "",
-  "id": "searching;searching-for-items-returns-results;;5",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 18,
-      "name": "@search"
-    },
-    {
-      "line": 21,
-      "name": "@search_terms"
-    }
-  ]
+  "type": "background",
+  "keyword": "Background"
 });
 formatter.step({
-  "line": 23,
+  "line": 22,
   "name": "I am at the \"http://automationpractice.com\" site",
   "keyword": "Given "
-});
-formatter.step({
-  "line": 24,
-  "name": "I enter \"blah\" in to the search box",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 25,
-  "name": "I press search",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 26,
-  "name": "I should get \"0 results have been found.\" returned",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
 });
 formatter.match({
   "arguments": [
@@ -517,8 +501,47 @@ formatter.match({
   "location": "SearchesStepDefs.i_have_at_the_site(String)"
 });
 formatter.result({
-  "duration": 3993440932,
+  "duration": 3730410497,
   "status": "passed"
+});
+formatter.scenario({
+  "line": 35,
+  "name": "Searching for items returns results",
+  "description": "",
+  "id": "searching;searching-for-items-returns-results;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 18,
+      "name": "@search"
+    },
+    {
+      "line": 24,
+      "name": "@search_terms"
+    }
+  ]
+});
+formatter.step({
+  "line": 26,
+  "name": "I enter \"blah\" in to the search box",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 27,
+  "name": "I press search",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "I should get \"0 results have been found.\" returned",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Then "
 });
 formatter.match({
   "arguments": [
@@ -530,14 +553,14 @@ formatter.match({
   "location": "SearchesStepDefs.i_enter_in_to_the_search_box(String)"
 });
 formatter.result({
-  "duration": 120948637,
+  "duration": 130989289,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchesStepDefs.i_press_search()"
 });
 formatter.result({
-  "duration": 874422170,
+  "duration": 905067918,
   "status": "passed"
 });
 formatter.match({
@@ -550,50 +573,28 @@ formatter.match({
   "location": "SearchesStepDefs.i_should_get_returned(String)"
 });
 formatter.result({
-  "duration": 27921351,
+  "duration": 29280414,
   "status": "passed"
 });
 formatter.after({
-  "duration": 631670245,
+  "duration": 641379468,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3260357335,
+  "duration": 3260901929,
   "status": "passed"
 });
-formatter.scenario({
-  "line": 36,
-  "name": "searching for items that return no results should show an error to the user",
+formatter.background({
+  "line": 21,
+  "name": "",
   "description": "",
-  "id": "searching;searching-for-items-that-return-no-results-should-show-an-error-to-the-user",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 35,
-      "name": "@search_terms"
-    }
-  ]
+  "type": "background",
+  "keyword": "Background"
 });
 formatter.step({
-  "line": 37,
+  "line": 22,
   "name": "I am at the \"http://automationpractice.com\" site",
   "keyword": "Given "
-});
-formatter.step({
-  "line": 38,
-  "name": "I enter \"blah\" in to the search box",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 39,
-  "name": "I press search",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 40,
-  "name": "I should see \"No results were found for your search \"blah\"\" warning",
-  "keyword": "Then "
 });
 formatter.match({
   "arguments": [
@@ -605,8 +606,37 @@ formatter.match({
   "location": "SearchesStepDefs.i_have_at_the_site(String)"
 });
 formatter.result({
-  "duration": 3937246850,
+  "duration": 3812934896,
   "status": "passed"
+});
+formatter.scenario({
+  "line": 38,
+  "name": "searching for items that return no results should show an error to the user",
+  "description": "",
+  "id": "searching;searching-for-items-that-return-no-results-should-show-an-error-to-the-user",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 37,
+      "name": "@search_terms"
+    }
+  ]
+});
+formatter.step({
+  "line": 39,
+  "name": "I enter \"blah\" in to the search box",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 40,
+  "name": "I press search",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 41,
+  "name": "I should see \"No results were found for your search \"blah\"\" warning",
+  "keyword": "Then "
 });
 formatter.match({
   "arguments": [
@@ -618,14 +648,14 @@ formatter.match({
   "location": "SearchesStepDefs.i_enter_in_to_the_search_box(String)"
 });
 formatter.result({
-  "duration": 119077182,
+  "duration": 118818422,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchesStepDefs.i_press_search()"
 });
 formatter.result({
-  "duration": 820025163,
+  "duration": 791970727,
   "status": "passed"
 });
 formatter.match({
@@ -638,11 +668,11 @@ formatter.match({
   "location": "SearchesStepDefs.i_should_see_warning(String)"
 });
 formatter.result({
-  "duration": 34759984,
+  "duration": 28339700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 633436543,
+  "duration": 646374288,
   "status": "passed"
 });
 });
