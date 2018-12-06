@@ -9,7 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = {"src/test/Features/"},
 		plugin = {"html:target/cucumber-html-report", "json:target/cucumber-json-report.json" },
-		glue={"stepDefinitions"}
+		glue={"stepDefinitions"},
+		tags= {"@ContactUs"}
 		)
 
 public class RegressionRunner {

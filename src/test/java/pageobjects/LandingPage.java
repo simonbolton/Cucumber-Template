@@ -26,5 +26,10 @@ public class LandingPage extends BaseClass {
 	public static WebElement search;
 	
 	
+	@FindBy(how = How.CSS, using = "#contact-link > a")
+	@CacheLookup
+	public static WebElement contactUs;
+	
+	
 
 }

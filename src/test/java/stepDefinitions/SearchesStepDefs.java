@@ -56,7 +56,7 @@ public class SearchesStepDefs {
 
 	}
 
-	//@Then("^I should see \"([^\"]*)\" warning$")
+	
 	@Then("^I should see \"(.*)\" warning$")
 	public void i_should_see_warning(String warning) throws Throwable {
 
